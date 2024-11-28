@@ -120,7 +120,8 @@ public class Poker {
         HashMap<String, Integer> valores = new HashMap<>();
         for (Carta carta : mano) {
             String valor = carta.getValor();
-            valores.put(valor, valores.getOrDefault(valor, 0) + 1);
+            System.out.println(valor);
+            valores.put(valor, valores.getOrDefault(valor, 0) +1 );
             //System.out.println("getOrDefault: " + valores.getOrDefault(valor, 1));
         }
         /*

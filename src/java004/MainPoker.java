@@ -16,6 +16,5 @@ public class MainPoker {
         Poker poker = new Poker();
         String jugada = poker.jugada(mano);
         System.out.println("Resultado: " + jugada);
-
     }
 }
