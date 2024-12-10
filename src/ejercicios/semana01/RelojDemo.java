@@ -10,6 +10,7 @@ public class RelojDemo {
 
     public static void main(String[] args) {
         System.out.println("*** Bienvenido ***");
+        System.out.println("******************");
         do {
             menu();
         } while (principal > 0 && principal < 7);
